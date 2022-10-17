@@ -6,7 +6,7 @@ import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
 import { BrowserRouter } from "react-router-dom";
 //https://rickandmortyapi.com/graphql
 const client = new ApolloClient({
-  uri: "https://35.174.109.199:8000/subgraphs/name/persistence-bl-subgraph/graphql",
+  uri: "http://35.174.109.199:8000/subgraphs/name/persistence-bl-subgraph/graphql",
   cache: new InMemoryCache(),
 });
 const root = ReactDOM.createRoot(document.getElementById("root"));
